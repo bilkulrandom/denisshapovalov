@@ -36,7 +36,7 @@ public class MyLinkedList {
             return head;
         };
 
-        Node temp = null, tail = null;
+        Node temp = null;
         while(node.data > head.data){
             temp = head;
             head = head.next;

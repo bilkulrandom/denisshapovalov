@@ -42,6 +42,8 @@ public class CommonUtil {
             System.out.println(head.data);
             head = head.next;
         }
+
+        System.out.println();
     }
 
 }
